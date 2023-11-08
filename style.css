@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+}
+body {
+  height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #4f1b0c 40%,#000000);
+}
+
+.tabs-container {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+
+}
+button{
+    padding: 12px 70px;
+    border-radius: 70px;
+    border: unset;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+    
+}
+.tabs .tab {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 60px;
+    padding: 25px 0px;
+
+
+}
+.tabs .tab h5 {
+    font-size: 26px;
+    color: #b0612d;
+    font-weight: 500;
+}
+.tabs .tab small {
+    font-size: 18px;
+    font-weight: 500;
+    color: #595257;
+    transform: translateY(-5px);
+    display: inline-block;
+    margin: 10px 0px 0px;
+    display: inline-block;
+}
+.tabs .tab p {
+    color: #575454;
+    font-size: 16px;
+}
+h4 {
+    font-size: 28px;
+    color: #b0612d;
+}
+.glbl-btn {
+    background-color: #b0612d;
+    width: 62%;
+    margin: 13px auto;
+    padding: 9px 25px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+span {
+    font-size: 20px;
+    margin: 9px 0;
+    display: inline-block;
+}
+.tab-button {
+    margin-bottom: 22px;
+    
+}
+.active-tab-button.tab-button {
+    background-color: #fff;
+    color: #e1843d;
+    font-weight: 500;
+
+}
+.tab.active-tab{
+    background-image: linear-gradient(#e1843d, #290000);
+}
+.tabs .active-tab.tab h5 {
+
+    color: #fff;
+}
+.tabs .active-tab.tab small {
+
+    color: #fff;
+}
+.tabs .active-tab.tab p {
+    color: #fff;
+  
+}
+.tabs .active-tab.tab .price span {
+   color: #fff;
+}
+.tabs .active-tab.tab .price h4{
+    color: #fff;
+}
+.tabs .active-tab.tab .glbl-btn {
+    background-color: #fff;
+    color: #b3632e;
+}
